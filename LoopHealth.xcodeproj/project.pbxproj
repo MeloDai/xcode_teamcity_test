@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0AA83B1CF76FBC009DA46E /* RecordsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0AA83A1CF76FBC009DA46E /* RecordsDetailViewController.swift */; };
+		1F0AA83D1CF76FC2009DA46E /* RecordsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0AA83C1CF76FC2009DA46E /* RecordsListTableViewController.swift */; };
+		1F0AA8411CF777CE009DA46E /* AGooseff.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1F0AA8401CF777CE009DA46E /* AGooseff.xml */; };
+		AD7AA5D71D09D59F004144D8 /* HealthKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7AA5D61D09D59F004144D8 /* HealthKitUI.framework */; };
+		ADBFD4071CEA973900744031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFD4061CEA973900744031 /* AppDelegate.swift */; };
+		ADBFD4091CEA973900744031 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBFD4081CEA973900744031 /* DashboardViewController.swift */; };
+		ADBFD40E1CEA973900744031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBFD40C1CEA973900744031 /* Main.storyboard */; };
+		ADBFD4101CEA973900744031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBFD40F1CEA973900744031 /* Assets.xcassets */; };
+		ADBFD4131CEA973900744031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBFD4111CEA973900744031 /* LaunchScreen.storyboard */; };
+		ADDF38301CF587E5001DDBE3 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDF382F1CF587E5001DDBE3 /* HealthKit.framework */; };
+		B537D7441DD3AA370043DD11 /* UIViewController+Enumerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537D7431DD3AA370043DD11 /* UIViewController+Enumerate.swift */; };
+		B537D7461DD3AA990043DD11 /* HealthStoreContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537D7451DD3AA990043DD11 /* HealthStoreContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F0AA83A1CF76FBC009DA46E /* RecordsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsDetailViewController.swift; sourceTree = "<group>"; };
+		1F0AA83C1CF76FC2009DA46E /* RecordsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsListTableViewController.swift; sourceTree = "<group>"; };
+		1F0AA8401CF777CE009DA46E /* AGooseff.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AGooseff.xml; sourceTree = "<group>"; };
+		AD7AA5D61D09D59F004144D8 /* HealthKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKitUI.framework; path = System/Library/Frameworks/HealthKitUI.framework; sourceTree = SDKROOT; };
+		ADBFD4031CEA973900744031 /* LoopHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBFD4061CEA973900744031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADBFD4081CEA973900744031 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		ADBFD40D1CEA973900744031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADBFD40F1CEA973900744031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADBFD4121CEA973900744031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADBFD4141CEA973900744031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDF382D1CF587E5001DDBE3 /* LoopHealth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LoopHealth.entitlements; sourceTree = "<group>"; };
+		ADDF382F1CF587E5001DDBE3 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		B537D7421DD397E40043DD11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B537D7431DD3AA370043DD11 /* UIViewController+Enumerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Enumerate.swift"; sourceTree = "<group>"; };
+		B537D7451DD3AA990043DD11 /* HealthStoreContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthStoreContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADBFD4001CEA973900744031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7AA5D71D09D59F004144D8 /* HealthKitUI.framework in Frameworks */,
+				ADDF38301CF587E5001DDBE3 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0AA83E1CF7707D009DA46E /* CDA */ = {
+			isa = PBXGroup;
+			children = (
+				1F0AA8401CF777CE009DA46E /* AGooseff.xml */,
+			);
+			name = CDA;
+			sourceTree = "<group>";
+		};
+		1F0AA83F1CF77081009DA46E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADBFD4081CEA973900744031 /* DashboardViewController.swift */,
+				1F0AA83C1CF76FC2009DA46E /* RecordsListTableViewController.swift */,
+				1F0AA83A1CF76FBC009DA46E /* RecordsDetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ADBFD3FA1CEA973900744031 = {
+			isa = PBXGroup;
+			children = (
+				B537D7421DD397E40043DD11 /* README.md */,
+				ADBFD4051CEA973900744031 /* LoopHealth */,
+				ADBFD4041CEA973900744031 /* Products */,
+				ADDF382E1CF587E5001DDBE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBFD4041CEA973900744031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBFD4031CEA973900744031 /* LoopHealth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBFD4051CEA973900744031 /* LoopHealth */ = {
+			isa = PBXGroup;
+			children = (
+				1F0AA83F1CF77081009DA46E /* View Controllers */,
+				1F0AA83E1CF7707D009DA46E /* CDA */,
+				ADDF382D1CF587E5001DDBE3 /* LoopHealth.entitlements */,
+				ADBFD4061CEA973900744031 /* AppDelegate.swift */,
+				B537D7431DD3AA370043DD11 /* UIViewController+Enumerate.swift */,
+				B537D7451DD3AA990043DD11 /* HealthStoreContainer.swift */,
+				ADBFD40C1CEA973900744031 /* Main.storyboard */,
+				ADBFD40F1CEA973900744031 /* Assets.xcassets */,
+				ADBFD4111CEA973900744031 /* LaunchScreen.storyboard */,
+				ADBFD4141CEA973900744031 /* Info.plist */,
+			);
+			path = LoopHealth;
+			sourceTree = "<group>";
+		};
+		ADDF382E1CF587E5001DDBE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD7AA5D61D09D59F004144D8 /* HealthKitUI.framework */,
+				ADDF382F1CF587E5001DDBE3 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADBFD4021CEA973900744031 /* LoopHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBFD4171CEA973900744031 /* Build configuration list for PBXNativeTarget "LoopHealth" */;
+			buildPhases = (
+				ADBFD3FF1CEA973900744031 /* Sources */,
+				ADBFD4001CEA973900744031 /* Frameworks */,
+				ADBFD4011CEA973900744031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoopHealth;
+			productName = LoopHealth;
+			productReference = ADBFD4031CEA973900744031 /* LoopHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADBFD3FB1CEA973900744031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LoopHealth;
+				TargetAttributes = {
+					ADBFD4021CEA973900744031 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeamName = "";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ADBFD3FE1CEA973900744031 /* Build configuration list for PBXProject "LoopHealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADBFD3FA1CEA973900744031;
+			productRefGroup = ADBFD4041CEA973900744031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADBFD4021CEA973900744031 /* LoopHealth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADBFD4011CEA973900744031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBFD4131CEA973900744031 /* LaunchScreen.storyboard in Resources */,
+				1F0AA8411CF777CE009DA46E /* AGooseff.xml in Resources */,
+				ADBFD4101CEA973900744031 /* Assets.xcassets in Resources */,
+				ADBFD40E1CEA973900744031 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADBFD3FF1CEA973900744031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0AA83B1CF76FBC009DA46E /* RecordsDetailViewController.swift in Sources */,
+				B537D7461DD3AA990043DD11 /* HealthStoreContainer.swift in Sources */,
+				ADBFD4071CEA973900744031 /* AppDelegate.swift in Sources */,
+				ADBFD4091CEA973900744031 /* DashboardViewController.swift in Sources */,
+				1F0AA83D1CF76FC2009DA46E /* RecordsListTableViewController.swift in Sources */,
+				B537D7441DD3AA370043DD11 /* UIViewController+Enumerate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADBFD40C1CEA973900744031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBFD40D1CEA973900744031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADBFD4111CEA973900744031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBFD4121CEA973900744031 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADBFD4151CEA973900744031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPRESSION = lossless;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADBFD4161CEA973900744031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPRESSION = "respect-asset-catalog";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADBFD4181CEA973900744031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LoopHealth/LoopHealth.entitlements;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LoopHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LoopHealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ADBFD4191CEA973900744031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LoopHealth/LoopHealth.entitlements;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LoopHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.LoopHealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADBFD3FE1CEA973900744031 /* Build configuration list for PBXProject "LoopHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBFD4151CEA973900744031 /* Debug */,
+				ADBFD4161CEA973900744031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBFD4171CEA973900744031 /* Build configuration list for PBXNativeTarget "LoopHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBFD4181CEA973900744031 /* Debug */,
+				ADBFD4191CEA973900744031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADBFD3FB1CEA973900744031 /* Project object */;
+}
